@@ -1,3 +1,4 @@
+Ji
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
@@ -14,5 +15,8 @@
  <!-- Extras -->
   <project path="device/mediatek/sepolicy_vndr" name="progcker/device_mediatek_sepolicy_vndr" remote="github" revision="twelve"/>
   <project path="prebuilts/clang/host/linux-x86/clang-r353983c1" name="progcker/clang-r353983c1" remote="github" revision="master"/>
+
+  <remove-project name="frameworks_base" />
+  <project path="frameworks/base/" name="progcker/frameworks_base" remote="github" revision="frico_mr1-release default" />
 
 </manifest>
